@@ -1,0 +1,166 @@
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #DDDDDD;
+  height: 100vh;
+}
+
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left {
+  background-color: black;
+  padding: 3% 2% 3% 3%;
+  margin: 3% 1% 2% 2%;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  width: 13%;
+  height: 80vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left p {
+  display: flex;
+  gap: 12%;
+}
+
+.left p span {
+  font-weight: lighter;
+}
+
+.left-footer {
+  margin-top: auto;
+}
+
+.right {
+  width: 75%;
+  margin-top: 2%;
+  margin-left: 3%;
+}
+
+.right-top {
+  display: flex;
+  width: 95%;
+  height: 15%;
+  /* background-color: aqua; */
+  justify-content: flex-start;
+  gap: 3%;
+}
+
+.right-head {
+  display: flex;
+  align-items: center;
+}
+
+.right-head2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 75%;
+  gap: 2%;
+}
+
+.right-head2 input {
+  background-image: #fff;
+  border-style: none;
+  border-radius: 10px;
+  height: 1.8em;
+  width: 27%;
+  padding-left: 2%;
+}
+
+.right-head2 img {
+  object-fit: cover;
+  width: 1.8em;
+  height: 1.8em;
+  border-radius: 50%;
+}
+
+.box {
+  width: 30%;
+  height: 70%;
+  padding: 2%;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.text {
+  /* display: flex;
+  justify-content: flex-start; */
+  font-family: 'Lato', sans-serif;
+}
+
+.box:nth-child(1) {
+  background-color: #DDEFE0;
+}
+
+.box:nth-child(2) {
+  background-color: #F4ECDD;
+}
+
+.box:nth-child(3) {
+  background-color: #EFDADA;
+}
+
+.box:nth-child(4) {
+  background-color: #DEE0EF;
+}
+
+.right-middle {
+  background-color: #fff;
+  width: 95%;
+  height: 35%;
+  margin-top: 2%;
+  border-radius: 20px;
+}
+
+.right-bottom {
+  display: flex;
+  width: 95%;
+  height: 28%;
+  justify-content: flex-start;
+  margin-top: 2%;
+  gap: 5%;
+}
+
+.details {
+  width: 50%;
+  height: 85%;
+  background-color: #fff;
+  border-radius: 20px;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.top-products1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 27%;
+}
+
+.top-products1 select {
+  border-style: none;
+  color: #858585;
+}
+
+.today-schedule1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 35%;
+}
+
+.today-schedule1 p {
+  display: flex;
+  align-items: center;
+  color: #858585;
+}
